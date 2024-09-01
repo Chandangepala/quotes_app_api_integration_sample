@@ -1,6 +1,6 @@
 
-import 'package:api_integration_sample/models/data_model.dart';
 import 'package:api_integration_sample/ui/pages/home_page.dart';
+import 'package:api_integration_sample/ui/pages/users_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,10 +19,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  HomePage(),
+      home:  UsersPage(),
     );
   }
-
-
 }
 
